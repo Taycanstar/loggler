@@ -14,6 +14,8 @@
 		EE0B49802B3F6EC2000DD2DA /* logglerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0B497F2B3F6EC2000DD2DA /* logglerTests.swift */; };
 		EE0B498A2B3F6EC2000DD2DA /* logglerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0B49892B3F6EC2000DD2DA /* logglerUITests.swift */; };
 		EE0B498C2B3F6EC2000DD2DA /* logglerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0B498B2B3F6EC2000DD2DA /* logglerUITestsLaunchTests.swift */; };
+		EE0B499B2B3F6FB7000DD2DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0B499A2B3F6FB7000DD2DA /* HomeView.swift */; };
+		EE0B499D2B3F728B000DD2DA /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0B499C2B3F728B000DD2DA /* JournalEntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		EE0B49852B3F6EC2000DD2DA /* logglerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logglerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0B49892B3F6EC2000DD2DA /* logglerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logglerUITests.swift; sourceTree = "<group>"; };
 		EE0B498B2B3F6EC2000DD2DA /* logglerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logglerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE0B499A2B3F6FB7000DD2DA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE0B499C2B3F728B000DD2DA /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				EE0B496E2B3F6EBF000DD2DA /* logglerApp.swift */,
 				EE0B49702B3F6EBF000DD2DA /* ContentView.swift */,
+				EE0B499A2B3F6FB7000DD2DA /* HomeView.swift */,
+				EE0B499C2B3F728B000DD2DA /* JournalEntryView.swift */,
 				EE0B49722B3F6EC2000DD2DA /* Assets.xcassets */,
 				EE0B49742B3F6EC2000DD2DA /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0B499B2B3F6FB7000DD2DA /* HomeView.swift in Sources */,
+				EE0B499D2B3F728B000DD2DA /* JournalEntryView.swift in Sources */,
 				EE0B49712B3F6EBF000DD2DA /* ContentView.swift in Sources */,
 				EE0B496F2B3F6EBF000DD2DA /* logglerApp.swift in Sources */,
 			);
